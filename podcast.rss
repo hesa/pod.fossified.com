@@ -31,7 +31,7 @@ layout: null
             <itunes:name>{{ site.author }}</itunes:name>
             <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
-        <itunes:image href="{{ site.logo  | prepend: site.baseurl | prepend: site.url }}" />
+        <itunes:image href="{{ site.logo-big  | prepend: site.baseurl | prepend: site.url }}" />
         <itunes:category text="Technology" />
         <itunes:type>episodic</itunes:type>
         <itunes:explicit>no</itunes:explicit>
@@ -52,7 +52,7 @@ layout: null
                 <itunes:season>{{ post.season }}</itunes:season>
                 <itunes:episode>{{ post.episode }}</itunes:episode>
                 <itunes:episodeType>{{ post.episode-type }}</itunes:episodeType>
-                <itunes:image href="{{ site.logo | prepend: site.baseurl | prepend: site.url }}" />
+                <itunes:image href="{{ site.logo-big | prepend: site.baseurl | prepend: site.url }}" />
                 <itunes:explicit>{{ post.explicit }}</itunes:explicit>
                 <itunes:block>{{ post.block }}</itunes:block>
             </item>

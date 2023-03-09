@@ -18,6 +18,16 @@ layout: default
 <h3>Notes</h3>
 {{content}}
 
+{% if guests %}
+<h2>Guests</h2><br>
+{{ guests }}
+{% endif %}
+
+{% if links %}
+<h2>Links</h2><br>
+{{ links }}
+{% endif %}
+      
 {% if page.keywords %}
   <small>tags: <em>{{ page.keywords | join: "</em>, <em>" }}</em></small>
 {% endif %}

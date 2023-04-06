@@ -3,9 +3,10 @@ description: All things free and open source with <a href="https://github.com/ba
 author: Daniel, Henrik, Magnus and Johan
 email: info@fossified.com
 lang: en-us
-copyright: "&#x2117; &amp; &#xA9; 2023"
-logo: /assets/img/logo.png
-logo-big: /assets/img/logo-big.png
+copyright: "&#x2117; &amp; &#xA9;" Daniel, Henrik, Magnus and Johan, <a href="https://github.com/fossified/pod.fossified.com/blob/master/LICENSE">LICENSE</a>.
+contributors: the site is based on the work of Martin Ogn and <a href="https://www.oscillator.se/">Staffan Melin</a>.
+logo: /assets/img/fossified-1024x268.png
+logo-big: /assets/img/fossified-3000x784.png
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pod.fossified.com" # the base hostname & protocol for your site, e.g. http://example.com
 
